@@ -1724,6 +1724,7 @@ p {
     }
     .address, .city, .working-hours {
         max-width: 15vw;
+        display: block;
     }
     .map img{
         width: min(400px, calc(8 * var(--size-index)));
